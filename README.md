@@ -9,7 +9,7 @@ For the core (this), each packet begins with 0 (as a u16). After this is a u128 
 {
     u16 0;
     u128 guid;
-    u8 PacketType;
+    u16 PacketType;
     ...packet data
 }
 ```
